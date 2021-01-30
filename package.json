@@ -2,9 +2,9 @@
   "name": "AWS-EC2-CodeDeploy-S3",
   "version": "1.0.0",
   "description": "",
-  "main": "ecosystem.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/khanna98/AWS-EC2-CodeDeploy-S3/issues"
   },
-  "homepage": "https://github.com/khanna98/AWS-EC2-CodeDeploy-S3#readme"
+  "homepage": "https://github.com/khanna98/AWS-EC2-CodeDeploy-S3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
